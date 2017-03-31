@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context="com.example.mauro.test1.Procesos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Procesos del area de 'Comida'"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:layout_marginLeft="290dp"
+        android:text="Finalizada"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_above="@+id/desa_l2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="200dp"
+        android:text="En proceso"
+        android:layout_above="@+id/desa_l2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desayuno"
+        android:layout_marginTop="72dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView15" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/desa_l2"
+        android:onClick="onCheckBoxClicked"
+        android:clickable="false"
+        android:layout_alignTop="@+id/desa2"
+        android:layout_marginLeft="315dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/desa2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="250dp"
+        android:clickable="false"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Almuerzo"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:clickable="false"
+        android:id="@+id/alm2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/alm_l2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="315dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:text="Cena"
+        android:layout_marginTop="148dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView5" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/cena2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="146dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/cena_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="146dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:text="Refrigerio"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView6" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/ref2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="184dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/ref_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="184dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:text="Bebidas"
+        android:layout_marginTop="224dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView10"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/bebidas2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="222dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/bebidas_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="222dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:text="Bebidas alcoholicas"
+        android:layout_marginTop="262dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView11"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/bebidas_alc2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="260dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/bebidas_alc_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="260dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:text="Vasos plasticos"
+        android:layout_marginTop="296dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView12"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/vasos2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="294dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/vasos_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="294dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:text="Cubiertos"
+        android:layout_marginTop="332dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/turquoise"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textView13"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/cubiertos2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="330dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/cubiertos_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="330dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/comida"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_below="@+id/cubiertos2" />
+
+</RelativeLayout>
+

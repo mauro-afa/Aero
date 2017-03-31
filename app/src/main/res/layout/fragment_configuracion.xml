@@ -1,0 +1,86 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mauro.test1.configuracion">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambio de contraseña"
+        android:textSize="35dp"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textColor="@color/black"
+        android:hint="Nombre de usuario"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Repetir contraseña"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/button3"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:onClick="GetThis1"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:hint="Contraseña nueva"
+        android:id="@+id/editText3"
+        android:textColor="@color/black"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Para poder realizar el cambio de contraseña, se debe proporcionar el nombre del usuario actual, la contraseña actual y escribir dos veces la contraseña nueva."
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:hint="Contraseña actual"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

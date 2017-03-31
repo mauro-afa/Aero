@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.mauro.test1.Procesos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Procesos del area de 'Acomodadores'"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:layout_marginLeft="290dp"
+        android:text="Finalizada"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_above="@+id/verif_asientos_l2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="200dp"
+        android:text="En proceso"
+        android:layout_above="@+id/verif_asientos_l2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificacion de asientos"
+        android:textColor="@color/azul_acom"
+        android:textStyle="bold"
+        android:layout_marginTop="72dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/verif_asientos_l2"
+        android:onClick="onCheckBoxClicked"
+        android:clickable="false"
+        android:layout_alignTop="@+id/verif_asientos2"
+        android:layout_marginLeft="315dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/verif_asientos2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="250dp"
+        android:clickable="false"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepción de boletos"
+        android:textColor="@color/azul_acom"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:clickable="false"
+        android:id="@+id/recep_bol2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/recep_bol_l2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="315dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:textColor="@color/azul_acom"
+        android:textStyle="bold"
+        android:text="Clase economica"
+        android:layout_marginTop="148dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView5" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/e_class2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="146dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/e_class_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="146dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:textColor="@color/azul_acom"
+        android:textStyle="bold"
+        android:text="Primera clase"
+        android:layout_marginTop="186dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView6" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/p_class2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="184dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/p_class_l2"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="184dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/acomodador"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp" />
+
+</RelativeLayout>
+

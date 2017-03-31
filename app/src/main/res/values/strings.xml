@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Aero</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string-array name="items">
+        <item>Principal</item>
+        <item>Marcar procesos</item>
+        <item>Cambiar contraseña</item>
+        <item>Reportar inconveniente</item>
+        <item>Personal encargado</item>
+        <item>Cerrar sesión</item>
+    </string-array>
+    <string name="Error">Para reportar algún inconveniente, llenar los siguientes campos</string>
+    <string name="accion_ayuda">Ayuda</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Inicio de sesión</string>
+    <string name="title_activity_panel1">Maletero</string>
+    <string name="title_activity_panel2">Mantenimiento</string>
+    <string name="title_activity_panel3">Acomodadores</string>
+    <string name="title_activity_panel4">Comida</string>
+    <string name="fragment_marcar_procesos">Procesos de manteminiento</string>
+
+
+    <string name="verif_asientos">verif_asientos</string>
+    <string name="recep_bol">recep_bol</string>
+    <string name="e_class">e_class</string>
+    <string name="p_class">p_class</string>
+
+
+    <string name="desa">desa</string>
+    <string name="alm">alm</string>
+    <string name="cena">cena</string>
+    <string name="ref">ref</string>
+    <string name="bebidas">bebidas</string>
+    <string name="bebidas_alc">bebidas_alc</string>
+    <string name="vasos">vasos</string>
+    <string name="cubiertos">cubiertos</string>
+
+    <string name="carga_c">carga_c</string>
+    <string name="carga_c_l">carga_c_l</string>
+    <string name="tren_a">tren_a</string>
+    <string name="tren_a_l">tren_a_l</string>
+    <string name="aleron">aleron</string>
+    <string name="aleron_l">aleron_l</string>
+    <string name="kits_e">kits_e</string>
+    <string name="kits_e_l">kits_e_l</string>
+    <string name="mascaras_o">mascaras_o</string>
+    <string name="mascaracas_o_l">mascaras_o_l</string>
+
+
+    <string name="transporte_m">transporte_m</string>
+    <string name="transporte_m_l">transporte_m_l</string>
+    <string name="cargar_m">cargar_m</string>
+    <string name="cargar_m_l">cargar_m_l</string>
+    <string name="cargar_art_fra">cargar_art_fra</string>
+    <string name="cargar_art_fra_l">cargar_art_fra_l</string>
+    <string name="cargar_mascotas">cargar_mascotas</string>
+    <string name="cargar_mascotas_l">cargar_mascotas_l</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

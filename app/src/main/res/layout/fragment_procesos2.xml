@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.mauro.test1.Procesos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Procesos para ser marcados"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:layout_marginLeft="290dp"
+        android:text="Finalizada"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_above="@+id/carga_c_l" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="200dp"
+        android:text="En proceso"
+        android:layout_above="@+id/carga_c_l" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carga de combustible"
+        android:layout_marginTop="72dp"
+        android:textColor="@color/azul_marino"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carga_c_l"
+        android:onClick="onCheckBoxClicked"
+        android:layout_alignTop="@+id/carga_c"
+        android:layout_marginLeft="315dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/carga_c"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tren de aterrizaje"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/azul_marino"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/tren_a"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/tren_a_l"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="315dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificacion de alerones"
+        android:layout_marginTop="148dp"
+        android:textColor="@color/azul_marino"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView5" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/aleron"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="146dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/aleron_l"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="146dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kits de emergencia"
+        android:layout_marginTop="186dp"
+        android:textColor="@color/azul_marino"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView6" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/kits_e"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="184dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/kits_e_l"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="184dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mascaras de oxigeno"
+        android:layout_marginTop="224dp"
+        android:textColor="@color/azul_marino"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:id="@+id/textView10"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/mascaras_o"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="222dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:id="@+id/mascaras_o_l"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="222dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/mantenimiento"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp" />
+
+</RelativeLayout>

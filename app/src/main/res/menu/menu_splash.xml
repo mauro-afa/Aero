@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.mauro.test1.splash">
+    <item android:id="@+id/accion_ayuda" android:title="@string/accion_ayuda"
+        android:orderInCategory="100" />
+</menu>
